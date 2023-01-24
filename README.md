@@ -42,7 +42,9 @@ After making sure a comment is submitted successfully (200 status code when subm
 
 - switch to "comments-manager" branch
 - find the Header.vue component and add the new website to the list in pages array [like so](https://imgur.com/ziKrd4q).
-  **the url has to be structured exactly like the others**
+
+❗️❗️❗️**the url has to be structured exactly like the others**
+
 - push to github, build and deploy the updated comments-manager website
 
 [comments-manager](https://comments-admin.crtmadness.online/) website

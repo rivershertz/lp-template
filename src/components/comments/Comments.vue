@@ -5,9 +5,9 @@
     >
       <div class="flex-auto sm:w-full md:w-[600px] lg:w-[400px] self-end">
         <img
-          src="/images/kowela_business_man_5.png"
-          alt="a businessman presents"
-          class="sm:max-w-[70%] lg:max-w-full"
+          src=""
+          alt=""
+          class=""
         />
       </div>
       <div class="flex-auto sm:w-full lg:w-[480px] pb-10">

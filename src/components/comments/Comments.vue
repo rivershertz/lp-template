@@ -37,9 +37,9 @@
 
 <script setup>
   import Comment from "./Comment.vue";
-  import Form from "./Form.vue";
   import { ref, onMounted } from "vue";
-  import Admin from "../comments-manager.js";
+  import Form from "./CommentForm.vue";
+  import Admin from "@utt/lp-comments-manager";
 
   const key = ref(0);
   const comments = ref(null);

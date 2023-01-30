@@ -2,15 +2,15 @@
 import Layout from "../layouts/Layout.astro";
 import Hero from "../components/Hero.vue";
 import Info from "../components/Info.vue";
-import Faqs from "../components/Faqs.vue";
-import Reviews from "../components/Reviews.vue";
-import Footer from "../components/Footer.vue";
+import Banner from "../components/Banner.vue";
+import Plans from "../components/plans/Plans.vue";
+import Comments from "../components/comments/Comments.vue";
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="">
   <Hero />
   <Info />
-  <Faqs client:visible />
-  <Reviews client:visible />
-  <Footer />
+  <Banner />
+  <Plans />
+  <Comments />
 </Layout>

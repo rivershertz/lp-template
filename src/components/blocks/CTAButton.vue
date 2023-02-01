@@ -1,7 +1,10 @@
 <template>
-  <button>
+  <a
+    class="block"
+    href=""
+  >
     {{ text }}
-  </button>
+  </a>
 </template>
 
 <script setup>

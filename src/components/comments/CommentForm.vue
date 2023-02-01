@@ -7,15 +7,15 @@
       <div
         class="bg-[#FFFFFF4D] rounded-20 flex flex-col w-full px-[32px] py-[23px] drop-shadow-3xl"
       >
-        <h3 class="text-md mb-[29px]"></h3>
+        <h3 class="text-md mb-[29px]">Add comment</h3>
         <input
           type="text"
-          placeholder="Nom"
+          placeholder="Name"
           class="md:py-2.5 md:px-5 sm:p-2 outline-0 rounded-10 placeholder-primary text-xs"
           v-model="newComment.name"
         />
         <textarea
-          placeholder="Commentaire"
+          placeholder="Comment"
           class="mt-5 outline-0 md:py-2.5 md:px-5 sm:p-2 rounded-10 placeholder-primary text-xs"
           rows="4"
           v-model="newComment.comment"
@@ -30,10 +30,10 @@
 </template>
 
 <script setup>
-  import { ref } from "vue";
-  const newComment = ref({
-    name: "",
-    comment: "",
-    approved: false,
-  });
+import { ref } from 'vue';
+const newComment = ref({
+  name: '',
+  comment: '',
+  approved: false,
+});
 </script>

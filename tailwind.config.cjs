@@ -14,6 +14,10 @@ module.exports = {
       maxWidth: {
         main: "1375px",
       },
+      spacing: {
+        "30" : "30px",
+        "60" : "60px",
+      }
     },
   },
   plugins: [],

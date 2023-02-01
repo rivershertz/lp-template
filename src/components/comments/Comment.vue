@@ -11,13 +11,17 @@
       <p class="sm:text-xs leading-xs sm:mt-5 md:mt-0">
         {{ comment }}
       </p>
+      <p class="sm:text-xs leading-xs sm:mt-5 md:mt-0">
+        {{ date }}
+      </p>
     </div>
   </div>
 </template>
 
 <script setup>
-  const props = defineProps({
-    name: String,
-    comment: String,
-  });
+const props = defineProps({
+  name: String,
+  comment: String,
+  date: String,
+});
 </script>

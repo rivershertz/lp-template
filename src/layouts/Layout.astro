@@ -31,6 +31,7 @@ const { title } = Astro.props;
       type="image/svg+xml"
       href="/icons/favicon.png"
     />
+    <link rel="stylesheet" href="../assets/css/tailwind.css" />
     <meta
       name="generator"
       content={Astro.generator}
@@ -77,5 +78,33 @@ const { title } = Astro.props;
     font-size: 16px;
     line-height: 1.15em;
     color: #000;
+  }
+
+  @media only screen and (max-width: 1019px) {
+    h1 {
+      font-size: 42px;
+    }
+
+    h2 {    
+      font-size: 38px;
+    }
+
+    h3 {
+      font-size: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 719px) {
+    h1 {
+      font-size: 38px;
+    }
+
+    h2 {    
+      font-size: 32px;
+    }
+
+    h3 {
+      font-size: 28px;
+    }
   }
 </style>

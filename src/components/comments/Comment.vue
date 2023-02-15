@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <div class="">
+    <div class="comment-boxed">
       <h3 class="">
         {{ name }}
       </h3>
@@ -15,9 +15,9 @@
 </template>
 
 <script setup>
-  const props = defineProps({
-    name: String,
-    comment: String,
-    date: String,
-  });
+const props = defineProps({
+  name: String,
+  comment: String,
+  date: String,
+});
 </script>

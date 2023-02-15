@@ -5,7 +5,7 @@
     <p class="" v-for="item in data.list">
       {{ item }}
     </p>
-    <CTAButton text="button" />
+    <CTAButton text="button" class="btn-solid my-10" />
   </div>
 </template>
 

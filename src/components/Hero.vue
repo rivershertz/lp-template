@@ -5,12 +5,12 @@
     >
       <h1></h1>
       <p></p>
-      <CTAButton text="" />
+      <CTAButton text="hero button" class="btn-hero" />
     </MainWidth>
   </section>
 </template>
 
 <script setup>
-  import CTAButton from "./blocks/CTAButton.vue";
-  import MainWidth from "./blocks/MainWidth.vue";
+import CTAButton from './blocks/CTAButton.vue';
+import MainWidth from './blocks/MainWidth.vue';
 </script>
